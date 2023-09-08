@@ -19,7 +19,7 @@
         <main class="grid grid-cols-3 gap-4 3/4 text-white m-5">
             <div class="bg-orange-300 rounded-md drop-shadow-lg p-5 ">
                 <h3 class="text-5xl">Diposit</h3>
-                <h2 class="text-6xl font-semibold py-5">$<span>00</span></h2>
+                <h2 class="text-6xl font-semibold py-5">$<span id="dipo-field">00</span></h2>
             </div>
             <div class="bg-lime-300 rounded-md drop-shadow-lg p-5 ">
                 <h3 class="text-5xl">Withdraw</h3>
@@ -27,7 +27,7 @@
             </div>
             <div class="bg-cyan-300 rounded-md drop-shadow-lg p-5 ">
                 <h3 class="text-5xl">Balance</h3>
-                <h2 class="text-6xl font-semibold py-5">$<span>1200</span></h2>
+                <h2 class="text-6xl font-semibold py-5">$<span id="balance-Field">1200</span></h2>
             </div>
 
         </main>
@@ -35,8 +35,8 @@
              <div class="bg-stone-600 rounded-md drop-shadow-lg p-5 ">
                 <h3 class="text-5xl mb-5">Diposit</h3>
                 <h4>Please enter your ammount</h4>
-                <input type="Number" class="text-black my-2 w-60 rounded"><br>
-                <button class="bg-indigo-500 rounded-full px-5 hover:bg-indigo-700 hover:text-white text-black py-2 my-2">Confirm</button>
+                <input id="dipo-input" type="Number" class="text-black my-2 w-60 rounded"><br>
+                <button id="btn-dipo" class="bg-indigo-500 rounded-full px-5 hover:bg-indigo-700 hover:text-white text-black py-2 my-2">Confirm</button>
             </div>
              <div class="bg-stone-600 rounded-md drop-shadow-lg p-5 ">
                 <h3 class="text-5xl mb-5">Withdraw</h3>
@@ -46,6 +46,13 @@
             </div>
         </div>
     </section>
+
+
+
+
+
+
+    <script src="Custom-Js/diposit.js"></script>
 </body>
 
 </html>
